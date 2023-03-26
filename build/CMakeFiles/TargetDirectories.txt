@@ -1,3 +1,3 @@
-/home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/Trial_OpenCV/build/CMakeFiles/rebuild_cache.dir
-/home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/Trial_OpenCV/build/CMakeFiles/edit_cache.dir
-/home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/Trial_OpenCV/build/CMakeFiles/DisplayImage.dir
+/home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/manometer_reading/build/CMakeFiles/rebuild_cache.dir
+/home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/manometer_reading/build/CMakeFiles/edit_cache.dir
+/home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/manometer_reading/build/CMakeFiles/DisplayImage.dir

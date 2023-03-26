@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/Trial_OpenCV/trialopencv.cpp
+/home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/manometer_reading/trialopencv.cpp
 opencv2/opencv.hpp
 -
 stdio.h
@@ -20,8 +20,6 @@ vector
 opencv2/imgproc.hpp
 -
 math.h
--
-yaml.h
 -
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp

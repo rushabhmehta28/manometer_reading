@@ -1,4 +1,4 @@
-# Install script for directory: /home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/Trial_OpenCV
+# Install script for directory: /home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/manometer_reading
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/Trial_OpenCV/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/manometer_reading/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/Trial_OpenCV/trialopencv.cpp" "/home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/Trial_OpenCV/build/CMakeFiles/DisplayImage.dir/trialopencv.cpp.o"
+  "/home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/manometer_reading/trialopencv.cpp" "/home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/manometer_reading/build/CMakeFiles/DisplayImage.dir/trialopencv.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
