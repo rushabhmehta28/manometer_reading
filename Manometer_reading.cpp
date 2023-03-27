@@ -160,5 +160,7 @@ int main(int argc, char** argv)
 	namedWindow("Display Image", WINDOW_AUTOSIZE);
 	imshow("Display Image", image);
 	waitKey(0);
+	destroyAllWindows();
+	//imwrite("/home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/manometer_reading/Gauge-5_results.jpg", image);
 	return 0;
 }

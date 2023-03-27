@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DisplayImage
+# Target rules for targets named manometer_reading
 
 # Build rule for target.
-DisplayImage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 DisplayImage
-.PHONY : DisplayImage
+manometer_reading: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 manometer_reading
+.PHONY : manometer_reading
 
 # fast build rule for target.
-DisplayImage/fast:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
-.PHONY : DisplayImage/fast
+manometer_reading/fast:
+	$(MAKE) -f CMakeFiles/manometer_reading.dir/build.make CMakeFiles/manometer_reading.dir/build
+.PHONY : manometer_reading/fast
 
-trialopencv.o: trialopencv.cpp.o
+Manometer_reading.o: Manometer_reading.cpp.o
 
-.PHONY : trialopencv.o
+.PHONY : Manometer_reading.o
 
 # target to build an object file
-trialopencv.cpp.o:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/trialopencv.cpp.o
-.PHONY : trialopencv.cpp.o
+Manometer_reading.cpp.o:
+	$(MAKE) -f CMakeFiles/manometer_reading.dir/build.make CMakeFiles/manometer_reading.dir/Manometer_reading.cpp.o
+.PHONY : Manometer_reading.cpp.o
 
-trialopencv.i: trialopencv.cpp.i
+Manometer_reading.i: Manometer_reading.cpp.i
 
-.PHONY : trialopencv.i
+.PHONY : Manometer_reading.i
 
 # target to preprocess a source file
-trialopencv.cpp.i:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/trialopencv.cpp.i
-.PHONY : trialopencv.cpp.i
+Manometer_reading.cpp.i:
+	$(MAKE) -f CMakeFiles/manometer_reading.dir/build.make CMakeFiles/manometer_reading.dir/Manometer_reading.cpp.i
+.PHONY : Manometer_reading.cpp.i
 
-trialopencv.s: trialopencv.cpp.s
+Manometer_reading.s: Manometer_reading.cpp.s
 
-.PHONY : trialopencv.s
+.PHONY : Manometer_reading.s
 
 # target to generate assembly for a file
-trialopencv.cpp.s:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/trialopencv.cpp.s
-.PHONY : trialopencv.cpp.s
+Manometer_reading.cpp.s:
+	$(MAKE) -f CMakeFiles/manometer_reading.dir/build.make CMakeFiles/manometer_reading.dir/Manometer_reading.cpp.s
+.PHONY : Manometer_reading.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... DisplayImage"
-	@echo "... trialopencv.o"
-	@echo "... trialopencv.i"
-	@echo "... trialopencv.s"
+	@echo "... manometer_reading"
+	@echo "... Manometer_reading.o"
+	@echo "... Manometer_reading.i"
+	@echo "... Manometer_reading.s"
 .PHONY : help
 
 

@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lectu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/DisplayImage.dir/all
+all: CMakeFiles/manometer_reading.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/DisplayImage.dir/clean
+clean: CMakeFiles/manometer_reading.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/DisplayImage.dir
+# Target rules for target CMakeFiles/manometer_reading.dir
 
 # All Build rule for target.
-CMakeFiles/DisplayImage.dir/all:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/depend
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/manometer_reading/build/CMakeFiles --progress-num=1,2 "Built target DisplayImage"
-.PHONY : CMakeFiles/DisplayImage.dir/all
+CMakeFiles/manometer_reading.dir/all:
+	$(MAKE) -f CMakeFiles/manometer_reading.dir/build.make CMakeFiles/manometer_reading.dir/depend
+	$(MAKE) -f CMakeFiles/manometer_reading.dir/build.make CMakeFiles/manometer_reading.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/manometer_reading/build/CMakeFiles --progress-num=1,2 "Built target manometer_reading"
+.PHONY : CMakeFiles/manometer_reading.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/DisplayImage.dir/rule: cmake_check_build_system
+CMakeFiles/manometer_reading.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/manometer_reading/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DisplayImage.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/manometer_reading.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rushabh/working_dir/uni_bonn_cpp_tutorial/seventh_lecture/manometer_reading/build/CMakeFiles 0
-.PHONY : CMakeFiles/DisplayImage.dir/rule
+.PHONY : CMakeFiles/manometer_reading.dir/rule
 
 # Convenience name for target.
-DisplayImage: CMakeFiles/DisplayImage.dir/rule
+manometer_reading: CMakeFiles/manometer_reading.dir/rule
 
-.PHONY : DisplayImage
+.PHONY : manometer_reading
 
 # clean rule for target.
-CMakeFiles/DisplayImage.dir/clean:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/clean
-.PHONY : CMakeFiles/DisplayImage.dir/clean
+CMakeFiles/manometer_reading.dir/clean:
+	$(MAKE) -f CMakeFiles/manometer_reading.dir/build.make CMakeFiles/manometer_reading.dir/clean
+.PHONY : CMakeFiles/manometer_reading.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
